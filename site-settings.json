@@ -85,8 +85,8 @@
   },
 
   "submissions-settings": {
-    "enable": false,
-    "max_categories_allowed": 5,
+    "enable": true,
+    "max_categories_allowed": 8,
     "max_tags_allowed": 5
   },
 
