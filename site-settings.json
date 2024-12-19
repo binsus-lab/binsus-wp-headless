@@ -68,13 +68,13 @@
 
     {
       "name": "github",
-      "url": "https://www.github.com/yourmediumpage",
+      "url": "#",
       "icon": "/images/socials/github.svg",
       "description": "Follow us on Github"
     },
     {
       "name": "tiktok",
-      "url": "https://www.tiktok.com/yourtiktokpage",
+      "url": "#",
       "icon": "/images/socials/tiktok.svg",
       "description": "Follow us on Tiktok"
     }
@@ -86,7 +86,7 @@
 
   "submissions-settings": {
     "enable": true,
-    "max_categories_allowed": 8,
+    "max_categories_allowed": 5,
     "max_tags_allowed": 5
   },
 
