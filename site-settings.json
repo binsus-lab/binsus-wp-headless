@@ -20,10 +20,10 @@
   },
   "top_banner": {
     "enable": false,
-    "description": "",
+    "description": "-50% Intro price for the next 72 hours only!.",
     "end_link": {
       "url": "#",
-      "text": "",
+      "text": "Buy now  →",
       "new_tab": false
     }
   },
@@ -46,7 +46,7 @@
     "site_state": "Your State",
     "site_zip": "Your Zip",
     "site_country": "Your Country",
-    "site_url": "https://www.yoursite.com",
+    "site_url": "https://www.binsus.com",
     "site_logo": "/logo.png",
     "site_logo_light": "/logo-light.png",
     "site_favicon": "/favicon.png"
@@ -64,13 +64,20 @@
       "url": "https://twitter.com/binsuscom",
       "icon": "/images/socials/x-twitter.svg",
       "description": "Follow us on Twitter"
-<<<<<<< HEAD
-    }
-=======
     },
->>>>>>> 4d3f7e0fb6d044af0230ad73f7eb9c239c9ab557
 
-
+    {
+      "name": "github",
+      "url": "#",
+      "icon": "/images/socials/github.svg",
+      "description": "Follow us on Github"
+    },
+    {
+      "name": "tiktok",
+      "url": "#",
+      "icon": "/images/socials/tiktok.svg",
+      "description": "Follow us on Tiktok"
+    }
   ],
 
   "site_footer": {
@@ -79,7 +86,7 @@
 
   "submissions-settings": {
     "enable": true,
-    "max_categories_allowed": 8,
+    "max_categories_allowed": 5,
     "max_tags_allowed": 5
   },
 
