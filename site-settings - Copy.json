@@ -1,24 +1,52 @@
 {
+  "version": "0.1.1",
+
+  "mailpoet_api_key": "your_mailpoet_api_key",
+  "mailpoet_list_id": "3",
+  "subcription_widget": {
+    "enable": true,
+    "title": "Stay up to date",
+    "description": "Get notified when I publish something new, and unsubscribe at any time.",
+    "placeholder": "Enter your email address",
+    "success_message": "Thank you for subscribing. You're in!",
+    "error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+  },
+  "newsletter_section": {
+    "enable": true,
+    "title": "Join our newsletter 🎉",
+    "description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
+    "right_image": "/images/SVG-subcribe2.png",
+    "features_list": ["Create a free account.", "Write your stories."]
+  },
+  "top_banner": {
+    "enable": true,
+    "description": "-50% Intro price for the next 72 hours only!.",
+    "end_link": {
+      "url": "#",
+      "text": "Buy now  →",
+      "new_tab": false
+    }
+  },
 
   "top_category_section": {
     "enable": true,
-    "title": "Top 10 Kategori",
+    "title": "Discover top 10 categories",
     "sub_title": "Let's explore the most popular categories"
   },
 
   "site_info": {
-    "site_title": "Binsus",
-    "site_description": "Berita Terkini dan Informasi Khusus",
-    "site_keywords": "Binsus",
-    "site_author": "Binsus",
+    "site_title": "Ncmaz Nextjs Blog",
+    "site_description": "Ncmaz Nextjs Blog headless WordPress",
+    "site_keywords": "Ncmaz Nextjs Blog",
+    "site_author": "ChisNghiax",
     "site_email": "Your Email",
     "site_phone": "Your Phone",
     "site_address": "Your Address",
     "site_city": "Your City",
     "site_state": "Your State",
     "site_zip": "Your Zip",
-    "site_country": "Indonesia",
-    "site_url": "https://www.binsus.com",
+    "site_country": "Your Country",
+    "site_url": "https://www.yoursite.com",
     "site_logo": "/logo.png",
     "site_logo_light": "/logo-light.png",
     "site_favicon": "/favicon.png"
@@ -27,26 +55,38 @@
   "site_socials": [
     {
       "name": "facebook",
-      "url": "https://www.facebook.com/binsuscom",
+      "url": "https://www.facebook.com/yourfacebookpage",
       "icon": "/images/socials/facebook.svg",
       "description": "Follow us on Facebook"
     },
     {
       "name": "twitter",
-      "url": "https://twitter.com/binsuscom",
+      "url": "https://twitter.com/yourtwitterpage",
       "icon": "/images/socials/x-twitter.svg",
       "description": "Follow us on Twitter"
-    }
+    },
 
+    {
+      "name": "github",
+      "url": "https://www.github.com/yourmediumpage",
+      "icon": "/images/socials/github.svg",
+      "description": "Follow us on Github"
+    },
+    {
+      "name": "tiktok",
+      "url": "https://www.tiktok.com/yourtiktokpage",
+      "icon": "/images/socials/tiktok.svg",
+      "description": "Follow us on Tiktok"
+    }
   ],
 
   "site_footer": {
-    "all_rights_reserved_text": "© 2022 www.binsus.com, Inc. All rights reserved."
+    "all_rights_reserved_text": "© 2023 ChisNghiax Company, Inc. All rights reserved."
   },
 
   "submissions-settings": {
     "enable": true,
-    "max_categories_allowed": 8,
+    "max_categories_allowed": 3,
     "max_tags_allowed": 5
   },
 
