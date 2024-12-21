@@ -32,7 +32,7 @@ import AdSense from '@/components/AdSense';
 const Page: FaustTemplate<GetPageQuery> = (props) => {
   return (
     <div>
-      <AdSense client="ca-pub-XXXXXXXXXXXXXXXX" slot="1234567890" />
+      <AdSense client="ca-pub-3445285965202003" slot="7184205117" />
     </div>
   );
 };
