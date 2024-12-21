@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Adsense } from "@ctrl/react-adsense";
 
 interface AdSenseProps {
   client: string;
