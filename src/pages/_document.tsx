@@ -1,5 +1,4 @@
 import { NC_SITE_SETTINGS } from "@/contains/site-settings";
-import AdSense from '@/components/AdSense';
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 
 const FAVICON_VERSION = 4;
