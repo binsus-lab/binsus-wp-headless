@@ -27,6 +27,15 @@ import { TCategoryCardFull } from "@/components/CardCategory1/CardCategory1";
 import SingleTypeAudio from "@/container/singles/single-audio/single-audio";
 import SingleTypeVideo from "@/container/singles/single-video/single-video";
 import SingleTypeGallery from "@/container/singles/single-gallery/single-gallery";
+import AdSense from '@/components/AdSense';
+
+const Page: FaustTemplate<GetPageQuery> = (props) => {
+  return (
+    <div>
+      <AdSense client="ca-pub-XXXXXXXXXXXXXXXX" slot="1234567890" />
+    </div>
+  );
+};
 
 const DynamicSingleRelatedPosts = dynamic(
   () => import("@/container/singles/SingleRelatedPosts")
