@@ -69,16 +69,15 @@ export default class Document extends NextDocument {
           <meta name="apple-mobile-web-app-title" content="Ncmaz Nextjs" />
           <meta name="application-name" content="Ncmaz Nextjs" />
           <meta name="theme-color" content="#172A53" />
-          <meta
-          httpEquiv="Content-Security-Policy"
+          <meta httpEquiv="Content-Security-Policy"
           content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://www.googletagservices.com"
-        />
+          />
          
-        <script
+          <script
            async
            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3445285965202003"
            crossOrigin="anonymous"
-         />
+          />
           <script
             dangerouslySetInnerHTML={{
               __html: `
